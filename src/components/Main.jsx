@@ -15,10 +15,10 @@ function Main() {
                     <p className="text-2xl text-gray-900 font-semibold">Hi,</p>
                     <p className="text-2xl text-gray-900 font-semibold">My name's Anab</p>
                     <h1 className="text-3xl font-bold mt-3 text-blue-600">I'm</h1>
-                    <p className="text-lg mt-6 text-gray-700 max-w-sm mx-auto md:mx-0">
-                        a full-stack developer with a passion for creating visually stunning and user-friendly websites.
+                    <p className="text-lg mt-4 text-gray-700 max-w-sm mx-auto md:mx-0">
+                        a junior full-stack web developer with a passion for creating visually stunning and user-friendly websites.
                     </p>
-                    <a href="My resume.pdf" download>
+                    <a href="My CV.pdf" download>
                         <button className="mt-4 bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
                             Download CV
                         </button>
@@ -37,7 +37,7 @@ function Main() {
                 </div>
                 <div className="flex justify-center mt-4 md:mt-0">
                     <img 
-                        src="src/assets/images/WhatsApp Image 2024-10-03 at 16.44.58_acc8476b.jpg" // Replace with your actual image path
+                        src="src/assets/images/My-pic.jpg" 
                         alt="Your Name"
                         className="rounded-full shadow-lg w-80 h-auto md:w-96 border-4 border-blue-300"
                     />

@@ -40,7 +40,7 @@ function Projects() {
                         src="src\assets\images\ecommerce.jpeg" 
                         alt="Project 2" 
                         className="w-full h-48 object-cover cursor-pointer" 
-                        onClick={() => handleImageClick("src\assets\images\ecommerce.jpeg")}
+                        onClick={() => handleImageClick("src/assets/images/ecommerce.jpeg")}
                     />
                     <div className="p-5">
                         <h2 className="text-xl font-semibold text-gray-800 mb-2">Ecomerce website</h2>
@@ -53,7 +53,7 @@ function Projects() {
                         src="src\assets\images\exam.jpeg" 
                         alt="Project 3" 
                         className="w-full h-48 object-cover cursor-pointer" 
-                        onClick={() => handleImageClick("src\assets\images\exam.jpeg")}
+                        onClick={() => handleImageClick("src/assets/images/exam.jpeg")}
                     />
                     <div className="p-5">
                         <h2 className="text-xl font-semibold text-gray-800 mb-2">Exam Center</h2>
