@@ -37,7 +37,7 @@ function Main() {
                 </div>
                 <div className="flex justify-center mt-4 md:mt-0">
                     <img 
-                        src="src/assets/images/My-pic.jpg" 
+                        src="/images/My-pic.jpg" 
                         alt="Your Name"
                         className="rounded-full shadow-lg w-80 h-auto md:w-96 border-4 border-blue-300"
                     />

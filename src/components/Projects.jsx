@@ -20,10 +20,10 @@ function Projects() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
                     <img 
-                        src="src/assets/images/shaqadoon.jpeg" 
+                        src="/images/shaqadoon.jpeg" 
                         alt="Job Hunting App" 
                         className="w-full h-48 object-cover cursor-pointer" 
-                        onClick={() => handleImageClick("src/assets/images/shaqadoon.jpeg")}
+                        onClick={() => handleImageClick("/images/shaqadoon.jpeg")}
                     />
                     <div className="p-5">
                         <h2 className="text-xl font-semibold text-gray-800 mb-2">Job Hunting Web Application</h2>
@@ -37,10 +37,10 @@ function Projects() {
 
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
                     <img 
-                        src="src\assets\images\ecommerce.jpeg" 
+                        src="\images\ecommerce.jpeg" 
                         alt="Project 2" 
                         className="w-full h-48 object-cover cursor-pointer" 
-                        onClick={() => handleImageClick("src/assets/images/ecommerce.jpeg")}
+                        onClick={() => handleImageClick("/images/ecommerce.jpeg")}
                     />
                     <div className="p-5">
                         <h2 className="text-xl font-semibold text-gray-800 mb-2">Ecomerce website</h2>
@@ -50,10 +50,10 @@ function Projects() {
 
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105">
                     <img 
-                        src="src\assets\images\exam.jpeg" 
+                        src="\images\exam.jpeg" 
                         alt="Project 3" 
                         className="w-full h-48 object-cover cursor-pointer" 
-                        onClick={() => handleImageClick("src/assets/images/exam.jpeg")}
+                        onClick={() => handleImageClick("/images/exam.jpeg")}
                     />
                     <div className="p-5">
                         <h2 className="text-xl font-semibold text-gray-800 mb-2">Exam Center</h2>
